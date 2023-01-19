@@ -1,0 +1,13 @@
+l1=[1,2,3,5,7,9,]
+l2=[8,6,4,9,2,3]
+print(l1)
+a=l1.count(5)
+print(a)
+l1.extend(l2)
+print(l1)
+l2.reverse()
+print(l2)
+l2.sort()
+print(l2)
+l2.remove(4)
+print(l2)
